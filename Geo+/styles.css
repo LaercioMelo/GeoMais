@@ -1,0 +1,19 @@
+#myFooter {
+    background-color: #000080;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  #myFooter .footer-copyright {
+    background-color: #172c3c;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+  }
+  
+  #myFooter .footer-copyright p {
+    text-align: center;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+  }
