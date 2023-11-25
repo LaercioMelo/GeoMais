@@ -17,3 +17,23 @@
     margin: 10px;
     color: rgb(255, 255, 255);
   }
+
+  .nav {
+    background-color: #d8d4ff;
+  }
+
+  #myFooter a[href="sobre.html"] {
+    text-decoration: none; /* Remove o sublinhado */
+    color: white; /* Altera a cor do texto para preto */
+  }
+
+
+  #myFooter a[href="materiais.html"] {
+    text-decoration: none; /* Remove o sublinhado */
+    color: white; /* Altera a cor do texto para preto */
+  }
+
+  #myFooter a[href="objetivos.html"] {
+    text-decoration: none; /* Remove o sublinhado */
+    color: white; /* Altera a cor do texto para preto */
+  }
