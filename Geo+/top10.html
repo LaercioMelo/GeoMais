@@ -4,29 +4,54 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Arena Torneios</title>
+  <title>Geo+</title>
   <link rel="shortcut icon" href="imagens/logo.png">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
+    <style>
+      body {
+        background-color: #f8f9fa; /* Cor de fundo geral */
+        margin: 0;
+        padding: 0;
+      }
+  
+      .container {
+        margin-top: 20px; /* Ajuste a margem superior conforme necessário */
+        margin-bottom: 20px; /* Ajuste a margem inferior conforme necessário */
+      }
+  
+      .container text-center {
+        max-width: 200px; /* Largura máxima do contêiner centralizado */
+        margin: 0 auto; /* Centraliza o contêiner */
+      }
+  
+      .cidade-sustentavel-text {
+        text-align: justify;
+      }
+
+    </style>
 </head>
 
-<nav class="navbar navbar-expand-lg " style=" background-color: #d8d4ff;" >
-    <div class="container-fluid" >
-        <a class="navbar-brand" href="#">
-            <img src="imagens/logo.png" alt="Bootstrap" width="150" height="60">
-          </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<body>
+
+  <nav class="navbar navbar-expand-lg " style="background-color: #d8d4ff;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="imagens/logo.png" alt="Bootstrap" width="150" height="60">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link "  href="index.html">Início</a>
+            <a class="nav-link " href="index.html">Início</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link "  href="top10.html">Top 10</a>
+            <a class="nav-link " href="top10.html">Top 10</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="paises.html">Países</a>
@@ -41,35 +66,104 @@
       </div>
     </div>
   </nav>
-<br><br>
+  <br><br>
 
-  
-  <footer id="myFooter">
-    <div class="container text-center">
-    <div class="row align-items-center" style="padding: 10px; ">
+  <div class="container text-center">
+
+
+    <h1>Top 10 Assuntos mais comentados sobre Geografia atualmente</h1>
+
+    <!-- Assunto da página -->
+    <div class="row">
+      <div class="col">
+        <h2>10. Cidades Sustentáveis</h2>
+    
+        <div class="cidade-sustentavel-text" > 
+          <p style="text-align: justify;"> Uma <span class="highlight">cidade sustentável</span> é uma cidade projetada considerando os impactos socioambientais.
+            Numa cidade sustentável, o modelo e a dinâmica de desenvolvimento, além dos padrões de consumo, respeitam e cuidam
+            dos recursos naturais e das gerações futuras.
+          </p>
+          
+        </div>
         
-        <div class="col">
-        <a href="sobre.html">
-          Sobre a Equipe</a>
+        <div class="cidade-sustentavel-imagem">
+          <img src="imagens/cidade sustentavel.webp" alt="Cidades Sustentáveis" width="600px" height="400px">
         </div>
-        <div class="col">
-          <a href="materiais.html">
-          Outros materiais</a>
-        </div>
-        <div class="col">
-          <a href="objetivos.html">
-          Nossos Objetivos</a>
+    
+        <div class="cidade-sustentavel-text">
+          <p>Aqui estão alguns aspectos importantes das cidades sustentáveis:</p>
+          <ul>
+            <li><span class="highlight">Eficiência Energética:</span> Cidades sustentáveis buscam minimizar o consumo de energia e promover o
+              uso de fontes renováveis. Isso pode envolver a implementação de tecnologias de energia limpa, a promoção do
+              transporte público eficiente e o estímulo ao uso de energias renováveis em edifícios.</li>
+            <li><span class="highlight">Mobilidade Urbana Sustentável:</span> Incentivar meios de transporte sustentáveis, como caminhadas,
+              ciclismo e transporte público, reduzindo a dependência de veículos particulares movidos a combustíveis
+              fósseis. Isso contribui para a redução das emissões de poluentes e melhora a qualidade do ar.</li>
+            <li><span class="highlight">Gestão Eficiente de Resíduos:</span> Implementar sistemas de coleta seletiva, reciclagem e tratamento
+              adequado de resíduos sólidos são práticas fundamentais em cidades sustentáveis. Reduzir, reutilizar e reciclar
+              são princípios-chave.</li>
+            <li><span class="highlight">Áreas Verdes e Espaços Públicos:</span> Oferecer áreas verdes e espaços públicos bem planejados não apenas
+              melhora a qualidade de vida, mas também contribui para a preservação da biodiversidade e para a redução do
+              calor urbano.</li>
+            <li><span class="highlight">Desenvolvimento Urbano Integrado:</span> Planejar o desenvolvimento urbano de maneira integrada,
+              considerando a conectividade, a acessibilidade e a diversidade funcional dos espaços urbanos, é essencial para
+              criar ambientes urbanos sustentáveis.</li>
+          </ul>
         </div>
       </div>
     </div>
-    <div class="footer-copyright">
-        <p>©Geo+ - 2023 - Crateús-CE - Bairro Príncipe Imperial - CEP: 63700-000</p>
-    </div>
-</footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-crossorigin="anonymous"></script>
+        <h2>9. Biodiversidade e Ecossistemas</h2>
+        <p>Conteúdo do Assunto 2.</p>
+
+        <h2>8. Recursos Hidricos e Gerenciamento de Água</h2>
+        <p>Conteúdo do Assunto 2.</p>
+
+        <h2>7. Globalização</h2>
+        <p>Conteúdo do Assunto 2.</p>
+
+        <h2>6. Efeitos das Mudanças Climáticas</h2>
+        <p>Conteúdo do Assunto 2.</p>
+
+        <h2>5. Geopolítica Atual</h2>
+        <p>Conteúdo do Assunto 2.</p>
+
+        <h2>4. Urbanização</h2>
+        <p>Conteúdo do Assunto 2.</p>
+
+        <h2>3. Turismo Sustentável</h2>
+        <p>Conteúdo do Assunto 2.</p>
+
+        <h2>2. Climas do Mundo</h2>
+        <p>Conteúdo do Assunto 2.</p>
+
+        <h2>1. Migração e Imigração</h2>
+        <p>Conteúdo do Assunto 2.</p>
+      </div>
+      
+    </div>
+
+    <footer id="myFooter">
+      <div class="row align-items-center" style="padding: 10px; ">
+        <div class="col">
+          <a href="sobre.html">Sobre a Equipe</a>
+        </div>
+        <div class="col">
+          <a href="materiais.html">Outros materiais</a>
+        </div>
+        <div class="col">
+          <a href="objetivos.html">Nossos Objetivos</a>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p>©Geo+ - 2023 - Crateús-CE - Bairro Príncipe Imperial - CEP: 63700-000</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
